@@ -1,71 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Landing 2</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="menu">
-          <a class="menu__item menu__item_m" href="#">Мои навыки</a>
-          <a class="menu__item menu__item_o" href="#">Оставить заявку</a>
-        </nav>
-        <a class="header__button" href="#">
-          <span class="header__button-text">Позвонить</span>
-        </a>
-        <h1 class="header__title">Разработка сайтов, игр и приложений
-          <span class="header__title header__title-text_white">
-            Помогаю воплощать мечты в реальность
-          </span>
-        </h1>
-      </header>
-      <section class="advantages">
-        <h3 class="advantages__title">Почему вам стоит обратиться ко мне</h3>
-        <img class="advantsges__icon1" src="images/icon 1.svg">
-        <h3 class="advantages__title advantages__title_icon-1">Индивидуальный подход</h3>
-        <p class="advantages__subtitle advantages__subtitle_icon-1">Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.</p>
-        <img class="advantages__icon2" src="images/icon 2.svg">
-        <h3 class="advantages__title advantages__title_icon-2">Разумные цены</h3>
-        <p class="advantages__subtitle advantages__subtitle_icon-2">Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
-        <img class="advantages__icon3" src="images/icon 3.svg">
-        <h3 class="advantages__title advantages__title_icon-3">Отличный результат!</h3>
-        <p class="advantages__subtitle advantages__subtitle_icon-3">Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
-        <a class="advantages__button" href="#">
-          <span class="advantages__button-text">Получить консультацию</span>
-        </a>
-      </section>
-      <section class="skills">
-        <h3 class="skills__title">Что я могу</h3>
-        <img class="skills__image1" src="images/img 1.svg">
-        <h4 class="skills__title skills__title_image-1">Я умею писать валидный и семмантически верный код для вашего сайта или приложения</h4>
-        <p class="skills__subtitle skills__subtitle_image-1">Ваш сайт и приложение будут верно работать, благодаря моей верстке</p>
-        <img class="skills__image2" src="images/img 2.svg">
-        <h4 class="skills__title skills__title_image-2">Я умею создавать игры и анимации с помощью JavaScript</h4>
-        <p class="skills__subtitle skills__subtitle_image-2">Я свободно владею языком JavaScript и могу ''оживить'' ваш сайт и приложение</p>
-        <img class="skills__image3" src="images/img 3.svg">
-        <h4 class="skills__title skills__title_image-3">Я умею создавать приложения с помощью React</h4>
-        <p class="skills__subtitle skills__subtitle_image-3">Благодаря моим навыкам, ваш сайт и приложение будут максимально удобными в использовании</p>
-      </section>
-      <section class="form">
-        <h3 class="form__title">Есть вопросы?</h3>
-        <img class="form__image4" src="images/img 4.svg">
-        <p class="form__subtitle form__subtitle_image-4">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
-        <form class="form__f">
-          <input class="form__name-surname" name="Имя и фамилия" placeholder="Имя и фамилия" type="text" required>
-          <input class="form__mobile-number" name="mobile number" placeholder="Номер телефона" type="text" required>
-          <input class="form__e-mail" name="e-mail" placeholder="e-mail" type="text" required>
-          <input class="form__submit" type="submit" value="Отправить">
-        </form>
-      </section>
-      <footer class="footer">
-        <h6 class="footer__title">Меня можно найти в социальных сетях:</h6>
-        <img class="footer__link-linkedin" src="images/linkedin.svg">
-        <img class="footer__link-instagram" src="images/instagram.svg">
-        <img class="footer__link-facebook" src="images/facebook.svg">
-        <p>2020 &copy; WebHeroSchool</p>
-      </footer>
-    </div>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing 2</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="menu">
+        <div class="menu__wrap">
+          <a class="menu__item" href="#">Мои навыки</a>
+          <a class="menu__item" href="#">Оставить заявку</a>
+          <button class="menu__btn">Позвонить</button>
+          <div class="menu__mobile-button"><span></span></div>
+        </div>
+      </nav>
+      <div class="header__container">
+        <h1 class="header__title">Разработка сайтов, игр и&nbsp;приложений</h1>
+        <p class="header__subtitle">Помогаю воплощать<br>мечты в реальность</p>
+      </div>
+    </header>
+    <div class="container">
+    <main class="advantages">
+      <h1 class="advantages__title">Почему вам стоит обратиться ко мне</h1>
+      <div class="advantages__wrapper">
+        <div class="advantages__item advantages__item-one">
+      <img class="advantages__image_icon-1" src="images/icon 1.svg">
+      <h2 class="advantages__item_title-one">Индивидуальный подход</h2>
+      <p class="advantages__item_subtitle-one">Каждый&nbsp;клиент для&nbsp;меня&nbsp;особенный. Я&nbsp;тщательно изучаю что&nbsp;ему&nbsp;необходимо,&nbsp;прежде, чем&nbsp;приступить&nbsp;к&nbsp;работе.</p>
+      </div>
+      <div class="advantages__item advantages__item-two">
+      <img class="advantages__image_icon-2" src="images/icon 2.svg">
+      <h2 class="advantages__item_title-two">Разумные<br>цены</h2>
+      <p class="advantages__item_subtitle-two">Я предлагаю выгодные цены за безупречное выполнение работы&nbsp;и&nbsp;соблюдение&nbsp;сроков.</p>
+      </div>
+      <div class="advantages__item advantages__item-three">
+      <img class="advantages__image_icon-3" src="images/icon 3.svg">
+      <h2 class="advantages__item_title-three advantages__title_icon-3">Отличный результат!</h2>
+      <p class="advantages__item_subtitle-three advantages__subtitle_icon-3">Я внимательно работаю над&nbsp;каждым проектом. Я&nbsp;очень&nbsp;люблю свою&nbsp;работу, поэтому вас&nbsp;обрадует&nbsp;результат<br>проделанной&nbsp;работы.</p>
+      </div>
+      </div>
+      <button class="main__button">Получить консультацию</button>
+    </main>
+    <section class="skill">
+      <h2 class="skill__title">Что я могу</h2>
+      <div class="skill__wrapper">
+        <div class="skill__item_1">
+      <img class="skill__item_icon1" src="images/img 1.svg">
+      <div class="skill__text_1">
+      <p class="skill__text_up_1">Я умею писать валидный и&nbsp;семмантически верный код для&nbsp;вашего сайта или приложения</p>
+      <p class="skill__text_bottom_1">Ваш сайт и приложение будут верно&nbsp;работать, благодаря моей верстке</p>
+      </div>
+        </div>
+        <div class="skill__item_2">
+      <img class="skill__item_icon_2" src="images/img 2.svg">
+      <div class="skill__text_2">
+      <p class="skill__text_up_2">Я умею создавать игры и&nbsp;анимации с помощью JavaScript</p>
+      <p class="skill__text_bottom_2">Я свободно владею языком JavaScript и&nbsp;могу ''оживить'' ваш сайт и приложение</p>
+      </div>
+      </div>
+      <div class="skill__item_3">
+      <img class="skill__item_icon_3" src="images/img 3.svg">
+      <div class="skill__text_3">
+      <p class="skill__text_up_3">Я умею создавать приложения с помощью React</p>
+      <p class="skill__text_bottom_3">Благодаря моим навыкам, ваш сайт и приложение будут максимально удобными в использовании</p>
+      </div>
+      </div>
+      <div class="circle">
+        <div class="circle__1"></div>
+        <div class="circle__2"></div>
+        <div class="circle__3"></div>
+      </div>
+      </div>
+    </section>
+  </div>
+     <form class="form">
+      <h1 class="form__title">Есть вопросы?</h1>
+      <img class="form__icon" src="images/img 4.svg">
+      <p class="form__subtitle">Заполните, пожалуйста, эту форму и&nbsp;я&nbsp;обязательно свяжусь с вами</p>
+      <div class="form__container">
+        <input class="form__name-surname" name="Имя и фамилия" placeholder="Имя и фамилия" type="text" required>
+        <input class="form__mobile-number" name="mobile number" placeholder="Номер телефона" type="text" required>
+        <input class="form__e-mail" name="e-mail" placeholder="e-mail" type="text" required>
+        <input class="form__submit" type="submit" value="Отправить">
+      </div>
+     </form>
+    <footer class="footer">
+      <p class="footer__title">Меня можно найти&nbsp;в&nbsp;социальных&nbsp;сетях:</p>
+      <div class="footer__container">
+       <img class="footer__link-linkedin" src="images/linkedin.svg">
+       <img class="footer__link-instagram" src="images/instagram.svg">
+       <img class="footer__link-facebook" src="images/facebook.svg">
+      </div>
+      <p class="footer__text">2020  &copy;  WebHeroSchool</p>
+    </footer>
+  </div>
+</body>
+
 </html>
