@@ -539,16 +539,20 @@ body {
   }
   .header__container {
     display: block;
-    height: 232px;
+    height: 413px;
     background: no-repeat url(images/img\ background_2.svg);
   }
   .header__title {
+    right: 4px;
+    width: 224px;
+    height: 48px;
     padding: 25px 30px 0 66px;
-    font: 20px/25px montserratblack, helvetica, sans-serif;
+    font: 900 20px/25px Montserrat, helvetica, sans-serif;
   }
   .header__subtitle {
+    right: 4px;
     padding: 75px 28px 0 105px;
-    font: 16px/20px montserratbold, helvetica, sans-serif;
+    font: 700 16px/20px Montserrat, helvetica, sans-serif;
   }
   .container {
     width: 100%;
@@ -556,25 +560,130 @@ body {
   .advantages {
     height: 909px;
   }
+  .advantages__wrapper {
+    display: grid;
+  }
   .advantages__title {
     padding: 48px 60px 0 60px;
     margin: 0 auto;
-    font: 16px/20px montserratblack, helvetica, sans-serif;
+    font: 900 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .advantages__item-one {
+    position: relative;
+  }
+  .advantages__image_icon-1 {
+    left: 28px;
+    bottom: 25px;
+    width: 55px;
+    height: 55px;
+  }
+  .advantages__item_title-one {
+    left: 100px;
+    bottom: 57px;
+    width: 162px;
+    height: 40px;
+    font: 900 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .advantages__item_subtitle-one {
+    left: 51px;
+    bottom: 68px;
+    width: 255px;
+    height: 100px;
+    font: 500 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .advantages__item-two {
+    position: relative;
+  }
+  .advantages__image_icon-2 {
+    left: 84px;
+    bottom: 159px;
+    width: 55px;
+    height: 55px;
+  }
+  .advantages__item_title-two {
+    left: 194px;
+    bottom: 188px;
+    width: 97px;
+    height: 40px;
+    font: 900 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .advantages__item_subtitle-two {
+    left: 115px;
+    bottom: 212px;
+    width: 256px;
+    height: 60px;
+    font: 500 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .advantages__item-three {
+    position: relative;
+  }
+  .advantages__image_icon-3 {
+    left: 70px;
+    bottom: 336px;
+    width: 55px;
+    height: 55px;
+  }
+  .advantages__item_title-three {
+    left: 198px;
+    bottom: 360px;
+    width: 96px;
+    height: 40px;
+    font: 900 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .advantages__item_subtitle-three {
+    left: 130px;
+    bottom: 367px;
+    width: 224px;
+    height: 120px;
+    font: 500 16px/20px Montserrat, helvetica, sans-serif;
   }
   .main__button {
+    position: absolute;
+    bottom: 0;
+    width: 261px;
+    height: 54px;
     margin: 54px 0 45px 30px;
+    font: 800 16px/20px Montserrat, helvetica, sans-serif;
   }
   .skill {
     height: 509px;
   }
+  .skill__title {
+    position: relative;
+    bottom: 58px;
+    width: 96px;
+    height: 20px;
+    font: 900 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .skill__item_icon1 {
+    position: absolute;
+    left: 73px;
+    bottom: 249px;
+    width: 175px;
+    height: 175px;
+  }
   .skill__text_up_1 {
+    top: 108px;
+    left: 11px;
+    width: 227px;
+    height: 80px;
     padding: 6px 0 8px 0;
+    text-align: center;
+    font: 600 16px/20px Montserrat, helvetica, sans-serif;
   }
   .skill__text_bottom_1 {
+    top: 107px;
+    left: 13px;
+    width: 185px;
+    height: 68px;
     padding: 0 26px 67px 20px;
+    text-align: center;
+    font: 500 14px/17px Montserrat, helvetica, sans-serif;
   }
   .circle {
     position: absolute;
+    bottom: 81px;
+    left: 31px;
     justify-content: center; 
   }
   .circle__1 {
@@ -606,22 +715,109 @@ body {
     border-radius: 50%;
     border: 1px solid #E1E6E9;
   }
+  .form {
+    width: 320px;
+    height: 635px;
+  }
+  .form__title {
+    left: 94px;
+    bottom: 29px;
+    width: 134px;
+    height: 20px;
+    font: 900 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .form__icon {
+    left: 2px;
+    bottom: 45px;
+    width: 175px;
+    height: 175px;
+  }
   .form__subtitle {
+    bottom: 66px;
+    width: 243px;
+    height: 60px;
     padding: 0 40px 16px 40px;
+    font: 600 16px/20px Montserrat, helvetica, sans-serif;
   }
-  .form__line {
+  .form__container {
+    position: relative;
+    bottom: 126px;
+    width: 261px;
+    height: 250px;
+  }
+  .form__name-surname {
+    position: absolute;
+    top: 64px;
+    left: -23px;
     margin: 0 25px 9px 25px;
-    padding: 0 20px;
-    width: 220px;
+    padding: 0 24px;
+    width: 260px;
     height: 50px;
+    font: 600 10px/12px Montserrat, helvetica, sans-serif;
   }
-
+  .form__mobile-number {
+    position: absolute;
+    top: 124px;
+    left: -23px;
+    margin: 0 25px 9px 25px;
+    padding: 0 23px;
+    width: 260px;
+    height: 50px;
+    font: 600 10px/12px Montserrat, helvetica, sans-serif;;
+  }
+  .form__e-mail {
+    position: absolute;
+    top: 184px;
+    left: -23px;
+    margin: 0 25px 9px 25px;
+    padding: 0 24px;
+    width: 260px;
+    height: 50px;
+    font: 600 10px/12px Montserrat, helvetica, sans-serif;;
+  }
   .form__submit {
     margin: 20px 30px 30px 30px;
     width: 260px;
     height: 50px;
-    left: 570px;
-    font: 16px/20px montserratsemibold, helvetica, sans-serif;
+    top: 243px;
+    left: -29px;
+    font: 900 16px/20px Montserrat, helvetica, sans-serif;
+  }
+  .footer {
+    width: 320px;
+    height: 208px;
+  }
+  .footer__title {
+    bottom: 30px;
+    right: 2px;
+    width: 179px;
+    height: 32px;
+    font: 500 14px/16px Roboto, helvetica, sans-serif;
+  }
+  .footer__link-linkedin {
+    right: 74px;
+    bottom: 36px;
+    width: 35px;
+    height: 35px;
+  }
+  .footer__link-instagram {
+    left: 1px;
+    bottom: 34px;
+    width: 35px;
+    height: 35px;
+  }
+  .footer__link-facebook {
+    left: 73px;
+    bottom: 35px;
+    width: 35px;
+    height: 35px;
+  }
+  .footer__text {
+    left: 79px;
+    bottom: 61px;
+    width: 157px;
+    height: 16px;
+    font: 400 14px/16px Roboto, helvetica, sans-serif;
   }
   .skill__item_2,
   .skill__item_3 {
