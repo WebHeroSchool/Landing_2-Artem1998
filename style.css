@@ -727,6 +727,7 @@ body {
     position: absolute;
     background: #ffda45;
     border-radius: 50%;
+    cursor: pointer;
   }
 
   .circle__2 {
