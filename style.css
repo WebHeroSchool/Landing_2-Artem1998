@@ -84,7 +84,7 @@ body {
   height: 747px;
 }
 
-.advantages__title {
+.advantages-title {
   margin: 0;
   padding-top: 93px;
   font: 900 30px/37px Montserrat, helvetica, sans-serif;
@@ -92,7 +92,7 @@ body {
   text-align: center;
 }
 
-.advantages__wrapper {
+.advantages-wrapper {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -104,13 +104,13 @@ body {
   width: 320px;
 }
 
-.advantages__image_icon-one {
+.advantages-item__image-one {
   position: relative;
   left: -12px;
   bottom: 8px;
 }
 
-.advantages__item_title-one {
+.advantages-item__title-one {
   position: relative;
   margin: 0;
   padding: 33px 0 0 6px;
@@ -120,7 +120,7 @@ body {
   color: #585858;
 }
 
-.advantages__item_subtitle-one {
+.advantages-item__subtitle-one {
   position: relative;
   margin: 0;
   padding: 14px 0 0 9px;
@@ -136,12 +136,12 @@ body {
   width: 320px;
 }
 
-.advantages__image_icon-two {
+.advantages-item__image-two {
   position: relative;
   left: -17px;
 }
 
-.advantages__item_title-two {
+.advantages-item__title-two {
   position: relative;
   margin: 0;
   padding-top: 28px;
@@ -151,7 +151,7 @@ body {
   color: #585858;
 }
 
-.advantages__item_subtitle-two {
+.advantages-item__subtitle-two {
   position: relative;
   margin: 0;
   padding-top: 27px;
@@ -166,12 +166,12 @@ body {
   width: 345px;
 }
 
-.advantages__image_icon-three {
+.advantages-item__image-three {
   position: relative;
   right: 12px;
 }
 
-.advantages__item_title-three {
+.advantages-item__title-three {
   position: relative;
   margin: 0;
   padding: 25px 0 0 0;
@@ -180,7 +180,7 @@ body {
   color: #585858;
 }
 
-.advantages__item_subtitle-three {
+.advantages-item__subtitle-three {
   position: relative;
   margin: 0;
   padding-top: 10px;
@@ -211,7 +211,7 @@ body {
   height: 953px;
 }
 
-.skill__title {
+.skill-title {
   text-align: center;
   margin: 0 auto;
   padding-top: 90px;
@@ -219,7 +219,7 @@ body {
   color: #585858;
 }
 
-.skill__wrapper {
+.skill-wrapper {
   display: block;
   justify-content: center;
   width: 80%;
@@ -234,17 +234,17 @@ body {
   height: 175px;
 }
 
-.skill__item_icon-one {
+.skill-item__icon-one {
   position: relative;
   right: 39px;
 }
 
-.skill__text-one {
+.skill-item__text-one {
   display: block;
   justify-content: space-between;
 }
 
-.skill__text_up-one {
+.skill-item__text_up-one {
   position: relative;
   padding: 4px 25px 8px 26px;
   margin: 0 auto;
@@ -253,7 +253,7 @@ body {
   color: #585858;
 }
 
-.skill__text_bottom-one {
+.skill-item__text_bottom-one {
   position: relative;
   margin: 0 auto;
   padding: 0 150px 0 25px;
@@ -271,19 +271,19 @@ body {
   padding-left: 432px;
 }
 
-.skill__item_icon-two {
+.skill-item__icon-two {
   position: absolute;
   padding-left: 780px;
   right: 130px;
 }
 
-.skill__text-two {
+.skill-item__text-two {
   display: block;
   justify-content: space-between;
   padding-top: 25px;
 }
 
-.skill__text_up-two {
+.skill-item__text_up-two {
   position: relative;
   padding-left: 177px;
   margin: 0 auto;
@@ -292,7 +292,7 @@ body {
   color: #585858;
 }
 
-.skill__text_bottom-two {
+.skill-item__text_bottom-two {
   position: relative;
   margin: 0 auto;
   padding: 8px 0 0 307px;
@@ -309,19 +309,19 @@ body {
   padding: 90px 420px 90px 0;
 }
 
-.skill__item_icon-three {
+.skill-item__icon-three {
   position: relative;
   right: 25px;
   bottom: 10px;
 }
 
-.skill__text-three {
+.skill-item__text-three {
   display: block;
   justify-content: space-between;
   padding-top: 10px;
 }
 
-.skill__text_up-three {
+.skill-item__text_up-three {
   position: relative;
   margin: 0 auto;
   padding: 0 0 8px 26px;
@@ -331,7 +331,7 @@ body {
   color: #585858;
 }
 
-.skill__text_bottom-three {
+.skill-item__text_bottom-three {
   position: relative;
   margin: 0 auto;
   padding: 0 130px 0 25px;
@@ -538,13 +538,13 @@ body {
     padding: 7px 12px 5px 12px;
   }
 
-  .header__container {
+  .header-container {
     display: block;
     height: 413px;
     background: no-repeat url(images/img\ background_2.svg);
   }
 
-  .header__title {
+  .header-container__title {
     right: 4px;
     width: 224px;
     height: 48px;
@@ -552,7 +552,7 @@ body {
     font: 900 20px/25px Montserrat, helvetica, sans-serif;
   }
 
-  .header__subtitle {
+  .header-container__subtitle {
     right: 4px;
     padding: 75px 28px 0 105px;
     font: 700 16px/20px Montserrat, helvetica, sans-serif;
@@ -566,11 +566,11 @@ body {
     height: 909px;
   }
 
-  .advantages__wrapper {
+  .advantages-wrapper {
     display: grid;
   }
 
-  .advantages__title {
+  .advantages-title {
     padding: 48px 60px 0 60px;
     margin: 0 auto;
     font: 900 16px/20px Montserrat, helvetica, sans-serif;
@@ -580,14 +580,14 @@ body {
     position: relative;
   }
 
-  .advantages__image_icon-one {
+  .advantages-item__image-one {
     left: 28px;
     bottom: 25px;
     width: 55px;
     height: 55px;
   }
 
-  .advantages__item_title-one {
+  .advantages-item__title-one {
     left: 100px;
     bottom: 57px;
     width: 162px;
@@ -595,7 +595,7 @@ body {
     font: 900 16px/20px Montserrat, helvetica, sans-serif;
   }
 
-  .advantages__item_subtitle-one {
+  .advantages-item__subtitle-one {
     left: 51px;
     bottom: 68px;
     width: 255px;
@@ -607,14 +607,14 @@ body {
     position: relative;
   }
 
-  .advantages__image_icon-two {
+  .advantages-item__image-two {
     left: 84px;
     bottom: 159px;
     width: 55px;
     height: 55px;
   }
 
-  .advantages__item_title-two {
+  .advantages-item__title-two {
     left: 194px;
     bottom: 188px;
     width: 97px;
@@ -622,7 +622,7 @@ body {
     font: 900 16px/20px Montserrat, helvetica, sans-serif;
   }
 
-  .advantages__item_subtitle-two {
+  .advantages-item__subtitle-two {
     left: 115px;
     bottom: 212px;
     width: 256px;
@@ -634,14 +634,14 @@ body {
     position: relative;
   }
 
-  .advantages__image_icon-three {
+  .advantages-item__image-three {
     left: 70px;
     bottom: 336px;
     width: 55px;
     height: 55px;
   }
 
-  .advantages__item_title-three {
+  .advantages-item__title-three {
     left: 198px;
     bottom: 360px;
     width: 96px;
@@ -649,7 +649,7 @@ body {
     font: 900 16px/20px Montserrat, helvetica, sans-serif;
   }
 
-  .advantages__item_subtitle-three {
+  .advantages-item__subtitle-three {
     left: 130px;
     bottom: 367px;
     width: 224px;
@@ -670,7 +670,7 @@ body {
     height: 509px;
   }
 
-  .skill__title {
+  .skill-title {
     position: relative;
     bottom: 58px;
     width: 96px;
@@ -678,7 +678,7 @@ body {
     font: 900 16px/20px Montserrat, helvetica, sans-serif;
   }
 
-  .skill__item_icon-one {
+  .skill-item__icon-one {
     position: absolute;
     left: 73px;
     bottom: 249px;
@@ -686,7 +686,7 @@ body {
     height: 175px;
   }
 
-  .skill__text_up-one {
+  .skill-item__text_up-one {
     top: 108px;
     left: 11px;
     width: 227px;
@@ -696,7 +696,7 @@ body {
     font: 600 16px/20px Montserrat, helvetica, sans-serif;
   }
 
-  .skill__text_bottom-one {
+  .skill-item__text_bottom-one {
     top: 107px;
     left: 13px;
     width: 185px;
