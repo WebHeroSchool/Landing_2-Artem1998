@@ -26,7 +26,7 @@ body {
   justify-content: flex-end;
   width: 180px;
   height: 50px;
-  right: 107px;
+  right: 108px;
   top: 3px;
   background: #309;
   border-radius: 50px;
@@ -41,6 +41,7 @@ body {
   position: relative;
   text-align: center;
   right: 109px;
+  top: 2px;
   margin: 15px 43px 15px 0;
   font: 800 20px/24px Gilroy, helvetica, sans-serif;
   color: #585858;
