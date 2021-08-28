@@ -191,9 +191,8 @@ body {
 
 .advantages-item__subtitle-three {
   position: relative;
-  margin: 0;
   padding-top: 10px;
-  top: 2px;
+  bottom: 16px;
   right: 13px;
   font: 500 20px/24px Montserrat, helvetica, sans-serif;
   color: #585858;
@@ -510,6 +509,7 @@ body {
   margin: 0;
   padding: 70px 0 60px 0;
   text-align: center;
+  top: 4px;
   font: 400 20px/23px Roboto, helvetica, sans-serif;
   color: #fff;
 }
@@ -684,7 +684,7 @@ body {
 
   .advantages-item__subtitle-three {
     left: 130px;
-    bottom: 367px;
+    bottom: 13px;
     width: 224px;
     height: 120px;
     font: 500 16px/20px Montserrat, helvetica, sans-serif;
