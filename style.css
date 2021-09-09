@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-  width: 1440px;
+  width: 100%;
   height: 3473px;
 }
 
@@ -447,6 +447,7 @@ body {
   font: 900 20px/24px Montserrat, helvetica, sans-serif;
   padding: 0 0 0 1px;
   background: #4ab272;
+  color: #ffffff;
   cursor: pointer;
   border: 1px solid #e9e9e9;
   border-radius: 50px;
