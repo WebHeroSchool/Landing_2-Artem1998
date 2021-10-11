@@ -4,7 +4,6 @@ body {
 
 .wrapper {
   width: 100%;
-  /* width: 1440px; */
   height: 3473px;
 }
 
@@ -14,7 +13,6 @@ body {
   margin: 0 auto;
   padding: 27px 23px 23px 19px;
   max-width: 100%;
-  /* max-width: 1442px; */
   border-top: 3px solid #309;
   border-bottom: 3px solid #309;
 }
