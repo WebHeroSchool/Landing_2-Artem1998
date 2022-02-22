@@ -1,0 +1,43 @@
+@media (max-width: 320px) {
+    .footer {
+      width: 320px;
+      height: 208px;
+    }
+  
+    .footer__title {
+      bottom: 28px;
+      right: 2px;
+      width: 179px;
+      height: 32px;
+      font: 500 14px/16px Roboto, helvetica, sans-serif;
+    }
+  
+    .footer__link-linkedin {
+      right: 74px;
+      bottom: 33px;
+      width: 35px;
+      height: 35px;
+    }
+  
+    .footer__link-instagram {
+      left: 1px;
+      bottom: 33px;
+      width: 35px;
+      height: 35px;
+    }
+  
+    .footer__link-facebook {
+      left: 73px;
+      bottom: 33px;
+      width: 35px;
+      height: 35px;
+    }
+  
+    .footer__text {
+      left: 81px;
+      bottom: 60px;
+      width: 157px;
+      height: 16px;
+      font: 400 14px/16px Roboto, helvetica, sans-serif;
+    }
+  }
