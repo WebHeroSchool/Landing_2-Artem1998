@@ -1,0 +1,81 @@
+@media (max-width: 320px) {
+
+    .form {
+      width: 320px;
+      height: 635px;
+    }
+  
+    .form__title {
+      left: 94px;
+      bottom: 27px;
+      width: 134px;
+      height: 20px;
+      font: 900 16px/20px Montserrat, helvetica, sans-serif;
+    }
+  
+    .form__icon {
+      left: 2px;
+      bottom: 45px;
+      width: 175px;
+      height: 175px;
+    }
+  
+    .form__subtitle {
+      display: flex;
+      position: relative;
+      top: -63px;
+      width: 243px;
+      height: 60px;
+      padding: 0 40px 16px 40px;
+      font: 600 16px/20px Montserrat, helvetica, sans-serif;
+    }
+  
+    .form__container {
+      position: relative;
+      bottom: 126px;
+      width: 261px;
+      height: 250px;
+    }
+  
+    .form__name-surname {
+      position: absolute;
+      top: 64px;
+      left: -23px;
+      margin: 0 25px 9px 25px;
+      padding: 0 24px;
+      width: 260px;
+      height: 50px;
+      font: 600 10px/12px Montserrat, helvetica, sans-serif;
+    }
+  
+    .form__mobile-number {
+      position: absolute;
+      top: 124px;
+      left: -23px;
+      margin: 0 25px 9px 25px;
+      padding: 0 23px;
+      width: 260px;
+      height: 50px;
+      font: 600 10px/12px Montserrat, helvetica, sans-serif;;
+    }
+  
+    .form__e-mail {
+      position: absolute;
+      top: 184px;
+      left: -23px;
+      margin: 0 25px 9px 25px;
+      padding: 0 24px;
+      width: 260px;
+      height: 50px;
+      font: 600 10px/12px Montserrat, helvetica, sans-serif;;
+    }
+  
+    .form__submit {
+      margin: 20px 30px 30px 30px;
+      width: 260px;
+      height: 50px;
+      top: 245px;
+      left: -29px;
+      font: 900 16px/20px Montserrat, helvetica, sans-serif;
+    }
+  }
