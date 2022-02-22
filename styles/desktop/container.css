@@ -1,0 +1,354 @@
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+.advantages {
+    position: relative;
+    background-color: #f9f9f9;
+    bottom: 182px;
+    height: 747px;
+}
+
+.advantages-title {
+    margin: 0;
+    padding-top: 93px;
+    font: 900 30px/37px Montserrat, helvetica, sans-serif;
+    color: #585858;
+    text-align: center;
+}
+
+.advantages-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.advantages__item-one {
+    padding: 58px 112px 0 55px;
+    height: 320px;
+    width: 320px;
+}
+
+.advantages-item__image-one {
+    position: relative;
+    left: -12px;
+    bottom: 8px;
+}
+
+.advantages-item__title-one {
+    position: relative;
+    margin: 0;
+    padding: 33px 0 0 6px;
+    left: -14px;
+    bottom: 12px;
+    font: 800 31px/35px Montserrat, helvetica, sans-serif;
+    color: #585858;
+}
+
+.advantages-item__subtitle-one {
+    position: relative;
+    margin: 0;
+    padding: 14px 0 0 9px;
+    left: -17px;
+    bottom: 14px;
+    font: 500 20px/24px Montserrat, helvetica, sans-serif;
+    color: #585858;
+}
+
+.advantages__item-two {
+    padding: 52px 85px 0 0;
+    height: 320px;
+    width: 320px;
+}
+
+.advantages-item__image-two {
+    position: relative;
+    left: -17px;
+}
+
+.advantages-item__title-two {
+    position: relative;
+    margin: 0;
+    padding-top: 28px;
+    left: -16px;
+    bottom: 3px;
+    font: 800 31px/37px Montserrat, helvetica, sans-serif;
+    color: #585858;
+}
+
+.advantages-item__subtitle-two {
+    position: relative;
+    margin: 0;
+    padding-top: 27px;
+    left: -13px;
+    font: 500 20px/24px Montserrat, helvetica, sans-serif;
+    color: #585858;
+}
+
+.advantages__item-three {
+    padding: 52px 30px 0 0;
+    height: 320px;
+    width: 345px;
+}
+
+.advantages-item__image-three {
+    position: relative;
+    right: 12px;
+}
+
+.advantages-item__title-three {
+    position: relative;
+    margin: 0;
+    padding: 25px 0 0 0;
+    right: 13px;
+    font: 800 31px/37px Montserrat, helvetica, sans-serif;
+    color: #585858;
+}
+
+.advantages-item__subtitle-three {
+    position: relative;
+    padding-top: 10px;
+    bottom: 16px;
+    right: 13px;
+    font: 500 20px/24px Montserrat, helvetica, sans-serif;
+    color: #585858;
+}
+
+.main__button {
+    display: block;
+    position: relative;
+    margin: 87px auto;
+    top: 4px;
+    text-align: center;
+    width: 343px;
+    height: 65px;
+    background: #330099;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font: 800 20px/24px Montserrat, helvetica, sans-serif;
+    color: #ffda45;
+}
+
+.container-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.skill-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.skill-title {
+    text-align: center;
+    margin: 90px 0 50px;
+    font: 900 30px/37px Montserrat, helvetica, sans-serif;
+    color: #585858;
+}
+.skill-items {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+}
+
+.skill-items:nth-child(2) {
+    margin: 80px 0;
+    flex-direction: row-reverse;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.skill-items:nth-child(3) {
+    max-width: 735px;
+}
+
+.skill-items__text {
+    font-family: Montserrat, helvetica, sans-serif;
+    margin: 0 25px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #585858;
+}
+
+.skill-items__text-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #585858;
+    margin-bottom: 8px;
+    white-space: pre-line;
+}
+
+.skill-items__text-origin  {
+    max-width: 455px;
+    white-space: pre-line;
+}
+
+.skill-items:nth-child(2) .skill-items__text-origin  {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.circle {
+    display: none;
+    text-align: center;
+    margin: 30px 0 35px;
+}
+
+.circle-item {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #E1E6E9;
+}
+
+.circle-item__one {
+    animation: changing 24s linear 0s infinite ;
+}
+
+.circle-item__two {
+    animation: changing 24s linear 8s infinite ;
+}
+
+.circle-item__three {
+    animation: changing 24s linear 16s infinite ;
+}
+
+@keyframes changing {
+0% {
+    background: #FFFFFF;
+}
+10% {
+    background: orange;
+}
+45% {
+    background: #FFFFFF;
+}
+100% {
+    background: #FFFFFF;
+}
+}
+
+@media (max-width:1200px) {
+    .container-inner {
+        max-width: 90%;
+    }
+}
+
+@media (max-width:800px) {
+    .container-inner {
+        max-width: 90%;
+    }
+
+    .skill-items,
+    .skill-items:nth-child(2),
+    .skill-items:nth-child(3) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skill-items__text-title {
+        margin-top: 10px;
+        white-space: normal;
+        margin: 0 auto;
+    }
+
+    .skill-items__text-origin  {
+        white-space: normal;
+        margin: 0 auto;
+    }
+
+    .skill-items:nth-child(2) .skill-items__text-origin  {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:550px) {
+    .skill-slider {
+        width: 100%;
+        height: 450px;
+        padding: 0 10px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .skill-items,
+    .skill-items:nth-child(2),
+    .skill-items:nth-child(3) {
+        position: absolute;
+        top: 0;
+        right: 150%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .skill-items__one {
+        animation: sliding 24s linear 0s infinite;
+    }
+
+    .skill-items__two {
+        animation: sliding 24s linear 8s infinite;
+    }
+
+    .skill-items__three {
+        animation: sliding 24s linear 16s infinite;
+    }
+
+    @keyframes sliding {
+        0% {
+        right: 150%;
+        }
+        15% {
+        right: 0%;
+        }
+        25% {
+        right: 0%;
+        }
+        40% {
+        right: -80%;
+        }
+        50% {
+        right: -150%;
+        }
+        100% {
+        right: -150%;
+        }
+    }
+
+    .skill__img {
+        max-width: 50%;
+    }
+
+    .skill-items__text {
+        margin: 10px 0;
+        flex: 0 0 100%;
+    }
+
+    .circle {
+        display: block;
+    }
+}
+
+@media (max-width:480px) {
+    .skill-slider {
+        height: 300px;
+    }
+
+    .skill-items__text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .skill-items__text-title {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 227px;
+    }
+
+    .skill-items__text-origin  {
+        max-width: 185px;
+    }
+}
