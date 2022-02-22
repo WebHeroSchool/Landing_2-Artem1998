@@ -1,0 +1,60 @@
+.footer {
+    position: relative;
+    bottom: 179px;
+    height: 322px;
+    justify-content: center;
+    margin: 0 auto;
+    background: #309;
+}
+
+.footer__title {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    font: 400 20px/23px Roboto, helvetica, sans-serif;
+    color: #fff;
+}
+
+.footer__container {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer__link-linkedin {
+    position: relative;
+    right: 96px;
+    cursor: pointer;
+}
+
+.footer__link-instagram {
+    position: relative;
+    cursor: pointer;
+}
+
+.footer__link-facebook {
+    position: relative;
+    left: 96px;
+    cursor: pointer;
+}
+
+.footer__icon {
+    margin: 0;
+    padding-right: 95px; 
+}
+
+.footer__icon:last-child {
+    margin: 0;
+    padding-right: 0;
+}
+
+.footer__text {
+    position: relative;
+    margin: 0;
+    padding: 70px 0 60px 0;
+    text-align: center;
+    top: 4px;
+    font: 400 20px/23px Roboto, helvetica, sans-serif;
+    color: #fff;
+}
