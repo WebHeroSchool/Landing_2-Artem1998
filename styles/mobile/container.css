@@ -1,0 +1,205 @@
+@media (max-width: 320px) {
+
+    .container {
+        width: 321px;
+      }
+    
+      .advantages {
+        width: 320px;
+        height: 907px;
+      }
+    
+      .advantages-wrapper {
+        display: grid;
+      }
+    
+      .advantages-title {
+        padding: 48px 60px 0 60px;
+        margin: 0 auto;
+        font: 900 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .advantages__item-one {
+        position: relative;
+      }
+    
+      .advantages-item__image-one {
+        left: 28px;
+        bottom: 25px;
+        width: 55px;
+        height: 55px;
+      }
+    
+      .advantages-item__title-one {
+        left: 100px;
+        bottom: 57px;
+        width: 162px;
+        height: 40px;
+        font: 900 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .advantages-item__subtitle-one {
+        left: 51px;
+        bottom: 68px;
+        width: 255px;
+        height: 100px;
+        font: 500 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .advantages__item-two {
+        position: relative;
+      }
+    
+      .advantages-item__image-two {
+        left: 84px;
+        bottom: 159px;
+        width: 55px;
+        height: 55px;
+      }
+    
+      .advantages-item__title-two {
+        left: 194px;
+        bottom: 188px;
+        width: 97px;
+        height: 40px;
+        font: 900 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .advantages-item__subtitle-two {
+        left: 115px;
+        bottom: 212px;
+        width: 256px;
+        height: 60px;
+        font: 500 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .advantages__item-three {
+        position: relative;
+        bottom: 370px;
+      }
+    
+      .advantages-item__image-three {
+        left: 70px;
+        top: 35px;
+        width: 55px;
+        height: 55px;
+      }
+    
+      .advantages-item__title-three {
+        left: 198px;
+        top: 10px;
+        width: 96px;
+        height: 40px;
+        font: 900 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .advantages-item__subtitle-three {
+        left: 130px;
+        bottom: 13px;
+        width: 226px;
+        height: 120px;
+        font: 500 16px/19.5px Montserrat, helvetica, sans-serif;
+      }
+    
+      .main__button {
+        position: absolute;
+        top: 757px;
+        width: 261px;
+        height: 54px;
+        margin: 54px 0 45px 30px;
+        font: 800 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .skill {
+        height: 509px;
+      }
+    
+      .skill-title {
+        position: relative;
+        bottom: 55px;
+        width: 96px;
+        height: 20px;
+        font: 900 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .skill-wrapper {
+        width: 227px;
+        height: 441px;
+      }
+    
+      .skill-one {
+        width: 227px;
+      }
+    
+      .skill-one__img {
+        position: absolute;
+        left: 73px;
+        bottom: 249px;
+        width: 175px;
+        height: 175px;
+      }
+    
+      .skill-one__text_up-one {
+        top: 108px;
+        left: -4px;
+        width: 227px;
+        height: 80px;
+        padding: 6px 0 8px 0;
+        text-align: center;
+        font: 600 16px/20px Montserrat, helvetica, sans-serif;
+      }
+    
+      .skill-one__text_bottom-one {
+        top: 109px;
+        left: 0;
+        width: 185px;
+        height: 68px;
+        padding: 0 26px 67px 20px;
+        text-align: center;
+        font: 500 14px/17px Montserrat, helvetica, sans-serif;
+      }
+
+      .skill-two, .skill-three {
+        display: none;
+      }
+    
+      .circle {
+        position: absolute;
+        bottom: 81px;
+        left: 31px;
+        justify-content: center; 
+      }
+    
+      .circle__one {
+        margin: 30px 16px 25px 92px;
+        top: 50%;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background: #ffda45;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    
+      .circle__two {
+        margin: 30px 16px 25px 121px;
+        top: 50%;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background: #fff;
+        border-radius: 50%;
+        border: 1px solid #E1E6E9;
+      }
+    
+      .circle__three {
+        margin: 30px 16px 25px 149px;
+        top: 50%;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background: #fff;
+        border-radius: 50%;
+        border: 1px solid #E1E6E9;
+      }
+}
